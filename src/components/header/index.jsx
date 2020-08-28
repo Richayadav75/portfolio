@@ -1,13 +1,13 @@
-import React,{Component} from "react";
+import React, { Component } from "react";
 
 class Header extends Component {
   //creating class
   render() {
     // creating render function
     return (                     //return one view
-        <div>
-                <h1>hello</h1>
-        </div>
+      <div>
+        <h1>{this.props.title ? this.props.title : "Hello"}</h1>
+      </div>
     )
   }
 }
