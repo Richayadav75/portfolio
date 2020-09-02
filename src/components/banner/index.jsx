@@ -6,44 +6,44 @@ export default class Banner extends Component {
     render() {
         return (
             <div>
-                <section class="person-profile">
-                    <div class="container">
-                        <div class="row profile">
-                            <div class="col-4">
-                                <div class="person-image">
+                <section className="person-profile">
+                    <div className="container">
+                        <div className="row profile">
+                            <div className="col-4">
+                                <div className="person-image">
                                     <img src={Person} alt="" />
                                 </div>
                             </div>
-                            <div class="col-8">
-                                <div class="">
-                                    <p class="person-name">Richa Yadav</p>
-                                    <p class="person-work">Frontend developer</p>
-                                    <div class="d-flex person-bio">
-                                        <ul class="list-unstyled w-25">
-                                            <li class="bio-list-left">
+                            <div className="col-8">
+                                <div className="">
+                                    <p className="person-name">Richa Yadav</p>
+                                    <p className="person-work">Frontend developer</p>
+                                    <div className="d-flex person-bio">
+                                        <ul className="list-unstyled w-25">
+                                            <li className="bio-list-left">
                                                 <p>Age</p>
                                             </li>
-                                            <li class="bio-list-left">
+                                            <li className="bio-list-left">
                                                 <p>Phone</p>
                                             </li>
-                                            <li class="bio-list-left">
+                                            <li className="bio-list-left">
                                                 <p>Email</p>
                                             </li>
-                                            <li class="bio-list-left">
+                                            <li className="bio-list-left">
                                                 Address
                                             </li>
                                         </ul>
-                                        <ul class="list-unstyled w-75">
-                                            <li class="bio-list-right">
+                                        <ul className="list-unstyled w-75">
+                                            <li className="bio-list-right">
                                                 23
                                             </li>
-                                            <li class="bio-list-right">
+                                            <li className="bio-list-right">
                                                 1234567891
                                             </li>
-                                            <li class="bio-list-right">
+                                            <li className="bio-list-right">
                                                 mail2gmail.com
                                             </li>
-                                            <li class="bio-list-right">
+                                            <li className="bio-list-right">
                                                 xyz
                                             </li>
                                         </ul>

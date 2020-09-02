@@ -8,29 +8,29 @@ class Header extends Component {
     return (                     //return one view
       <div>
         <header>
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <nav class="navbar navbar-expand-lg position-fixed pt-4 px-0">
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                      <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
+          <div className="container">
+            <div className="row">
+              <div className="col">
+                <nav className="navbar navbar-expand-lg position-fixed pt-4 px-0">
+                  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav mr-auto">
+                      <li className="nav-item active">
+                        <a className="nav-link" href="#">Home</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                      <li className="nav-item">
+                        <a className="nav-link" href="#">About</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Portoflio</a>
+                      <li className="nav-item">
+                        <a className="nav-link" href="#">Portoflio</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                      <li className="nav-item">
+                        <a className="nav-link" href="#">Link</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                      <li className="nav-item">
+                        <a className="nav-link" href="#">Link</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                      <li className="nav-item">
+                        <a className="nav-link" href="#">Link</a>
                       </li>
                     </ul>
                   </div>

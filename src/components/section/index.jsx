@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Row, Container } from 'react-bootstrap';
-import Description from '../../components/description'; 
+import Description from '../description'; 
+import ResumeList from '../resumeList'; 
 import './style.css';
 
 
@@ -13,6 +14,13 @@ export default class Section extends Component {
                         <Container>
                             <Row>
                             <Description />
+                            </Row>
+                        </Container>
+                    </section>
+                    <section class="section">
+                        <Container>
+                            <Row>
+                            <ResumeList />
                             </Row>
                         </Container>
                     </section>
