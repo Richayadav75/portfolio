@@ -1,0 +1,148 @@
+/* Global css */
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #555;
+}
+.pt-6,
+.pb-6 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.pt-7,
+.pb-7 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.pt-8,
+.pb-8 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.pt-9,
+.pb-9 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+.pt-10,
+.pb-10 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+/*  screen width less than 576px set the position {small}*/
+/* screen width equal to or greater than 576px set the position */
+@media (max-width: 576px) {
+    .pt-sm-6,
+    .pb-sm-6 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .pt-sm-7,
+    .pb-sm-7 {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+    .pt-sm-8,
+    .pb-sm-8 {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    .pt-sm-9,
+    .pb-sm-9 {
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+    }
+    .pt-sm-10,
+    .pb-sm-10 {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+}
+
+/*  screen width equal to or greater than 768px set the position { for md} */
+@media (min-width: 768px) {
+    .pt-md-6,
+    .pb-md-6 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .pt-md-7,
+    .pb-md-7 {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+    .pt-md-8,
+    .pb-md-8 {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    .pt-md-9,
+    .pb-md-9 {
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+    }
+    .pt-md-10,
+    .pb-md-10 {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+}
+
+/*  screen width equal to or greater than 992px set the position { for lg} */
+@media (min-width: 992px) {
+    .pt-lg-6,
+    .pb-lg-6 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .pt-lg-7,
+    .pb-lg-7 {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+    .pt-lg-8,
+    .pb-lg-8 {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    .pt-lg-9,
+    .pb-lg-9 {
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+    }
+    .pt-lg-10,
+    .pb-lg-10 {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+}
+/*  screen width equal to or greater than 1200px set the position { for xl} */
+@media (min-width: 1200px) {
+    .pt-xl-6,
+    .pb-xl-6 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .pt-xl-7,
+    .pb-xl-7 {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+    .pt-xl-8,
+    .pb-xl-8 {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    .pt-xl-9,
+    .pb-xl-9 {
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+    }
+    .pt-xl-10,
+    .pb-xl-10 {
+        padding-top: 10rem;
+    }
+}

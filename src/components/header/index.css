@@ -1,0 +1,8 @@
+/* header */
+.navbar {
+    z-index: 9;
+}
+.nav-item a {
+    color: #fff;
+    opacity: 10;
+}
