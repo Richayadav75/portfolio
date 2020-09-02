@@ -1,6 +1,8 @@
 import React,{Component} from 'react';
 import Header from '../../components/header'
 import Banner from '../../components/banner';
+import Description from '../../components/section';
+import Section from '../../components/section';
 
 export default class Home extends Component{
     render(){
@@ -8,6 +10,7 @@ export default class Home extends Component{
             <div>
                 <Header/>
                 <Banner />
+                <Section />
             </div>
             
         )
