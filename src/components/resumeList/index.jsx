@@ -6,43 +6,43 @@ export default class ResumeList extends Component {
     render() {
         return (
             <div>
-               <div className="col-12">
-               <h3 className="resume-title">education</h3>
-               <div className="resume-list">
-                   <h3 className="text-primary h6">
-                   UPTU
-                   </h3>
-                   <p className="resume-date">
-                   2006 - 2010 
-                   </p>
-                   <p className="resume-discription">
-                    Bachelor Of Technology
-                   </p>
-               </div>
-               <div className="resume-list">
-                   <h3 className="text-primary h6">
-                   UPTU
-                   </h3>
-                   <p className="resume-date">
-                   2006 - 2010 
-                   </p>
-                   <p className="resume-discription">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates inventore explicabo, tenetur necessitatibus earum eos quo omnis cupiditate aspernatur exercitationem. Consequuntur, blanditiis sapiente magni fugit quam delectus enim culpa dolor.
-                   </p>
-               </div>
-               <div className="resume-list">
-                   <h3 className="text-primary h6">
-                   UPTU
-                   </h3>
-                   <p className="resume-date">
-                   2006 - 2010 
-                   </p>
-                   <p className="resume-discription">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptates quis molestiae magni id exercitationem harum, necessitatibus omnis dicta non. Optio debitis assumenda alias, similique beatae dolorem impedit magnam quaerat?
-                   </p>
-                   </div>
-               </div>
+                <div className="col-12">
+                    <h3 className="resume-title">{this.props.name}</h3>{
+                        this.props.list.map((listItem,index) =>
+                            (
+                                
+                                <div className="resume-list" key={index}>
+                                    <h3 className="text-primary h6">
+                                        {listItem.instituteName}
+                                    </h3>
+                                    <p className="resume-date">
+                                        {listItem.startYear} - {listItem.endYear}
+                                    </p>
+                                    <p className="resume-discription">
+                                        {listItem.courseName}
+                                    </p>
+                                </div>
+
+                            ))
+                    }
+                </div>
             </div>
         )
     }
 }
+
+/** object
+ * { instituteName:"UPTU",
+ * startYear:2006,
+ * endYear:2010,
+ * courseName:"b.Tech"
+ *  }
+ */
+
+/** array of json object
+ *  [{ instituteName:"UPTU",
+* startYear:2006,
+* endYear:2010,
+* courseName:"b.Tech"
+*  }]
+ */
