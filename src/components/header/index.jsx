@@ -33,32 +33,32 @@ function Header() {
     //return one view
     <div>
       <header className="header w-100">
-        <nav className="navbar navbar-expand-lg pt-4 px-0 header-v1">
+        <nav className="navbar navbar-expand-lg px-0 header-v1">
           <div className="container">
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <a className="nav-link mr-3" href="#">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link mr-3" href="#">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link mr-3" href="#">
                   Portoflio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link mr-3" href="#">
                   Link
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link mr-3" href="#">
                   Link
                 </a>
               </li>

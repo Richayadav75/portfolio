@@ -1,18 +1,31 @@
 /* header */
 .navbar {
-    z-index: 9;
+  z-index: 9;
 }
 .nav-item a {
-    color: #fff;
-    opacity: 10;
+  color: #fff;
+  opacity: 10;
 }
-.header{
-    position: absolute;
+.header {
+  position: absolute;
 }
-.header-scroll{
-    background-color: #fff;
-    top: 0px;
-    position: fixed;
-    z-index: 99;
-    color: black!important;
+.header-scroll {
+  background-color: #fff;
+  top: 0px;
+  position: fixed;
+  z-index: 99;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.14);
+  transition: all 0.5s;
+}
+.header-scroll .header-v1{padding-top: 12px!important; transition: all 0.5s;}
+.header-scroll .navbar-nav .nav-item a {
+  color: #555 !important;
+  opacity: 1 !important;
+}
+.header-scroll .navbar-nav .nav-item a:hover {
+  color: #6d56c1 !important;
+  opacity: 1 !important;
+}
+.header-v1{
+    padding-top: 1.5rem!important;
 }
