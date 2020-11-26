@@ -5,7 +5,7 @@ import Description from '../../components/description';
 import ResumeList from '../../components/resumeList';
 import Progress from '../../components/progressBar';
 import TabComponent from '../../components/tab';
-import CarouselComponent from '../../components/carousels';
+import CarouselComponent from '../../components/carousel';
 
 export default class Home extends Component{
     constructor(props) {   //Constructor own method 
