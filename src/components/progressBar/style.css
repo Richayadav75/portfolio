@@ -1,0 +1,14 @@
+.progress-list__skill span {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.progress-list .progress {
+  height: 6px;
+  margin-bottom: 30px;
+}
+.progress-bar__skill {
+  height: 1rem;
+  line-height: 1rem;
+  color: #fff;
+}
