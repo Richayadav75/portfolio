@@ -1,0 +1,14 @@
+.project-tabs {
+  border: none !important;
+  margin-bottom: 25px !important;
+  font-size: 14px;
+  padding-right: 50px;
+}
+.project-tabs a {
+  border: none !important;
+  color: #999;
+}
+.project-tabs a.active {
+  color: #6d56c1 !important;
+  text-decoration: none;
+}

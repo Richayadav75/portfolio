@@ -1,0 +1,32 @@
+.project-brief {
+  padding: 50px 50px 40px 30px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.project-title {
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Roboto Mono, monospace;
+}
+.project-description {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 45px;
+}
+.project-stack {
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Roboto Mono, monospace;
+}
+.project-tech li {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14);
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
